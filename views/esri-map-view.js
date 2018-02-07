@@ -18,7 +18,7 @@ function view(state, emit) {
     emit(state.events.DOMTITLECHANGE, TITLE);
   }
 
-  createMap();
+  createEsriMapView();
 
   return html`
     <body class="sans-serif">
@@ -38,7 +38,7 @@ function view(state, emit) {
     </body>
   `;
 
-  function createMap() {
+  function createEsriMapView() {
     esriLoader.loadCss('https://js.arcgis.com/4.6/esri/css/view.css');
 
     esriLoader.loadModules([

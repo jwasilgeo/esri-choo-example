@@ -14,7 +14,7 @@
     "choo": "^6.7.0",
     "choo-devtools": "^2.3.3",
     "choo-service-worker": "^2.4.0",
-    "esri-loader": "^2.0.0",
+    "esri-loader": "^2.1.0",
     "sheetify": "^7.1.0",
     "tachyons": "^4.9.1"
   },

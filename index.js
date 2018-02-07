@@ -22,6 +22,7 @@ app.route('/*', require('./views/404'));
 
 app.mount('body');
 
+// TODO: maybe instead use Nanocomponent in "esri-map-view" to be able to rely on `Nanocomponent.prototype.load(el)`
 // if (!module.parent) {
 //   app.mount('body');
 // } else {

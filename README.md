@@ -3,7 +3,9 @@ An example [Choo](https://choo.io/) application that shows how to use [esri-load
 
 This approach demonstrates how to build a Choo-focused application with the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/). Using [esri-loader](https://github.com/Esri/esri-loader) makes the whole development process straightforward and enjoyable.
 
-This project was originally started and scaffolded out with the help of [create-choo-app](https://github.com/choojs/create-choo-app) (v1.11). Then [esri-loader](https://github.com/Esri/esri-loader) and [nanocomponent](https://github.com/choojs/nanocomponent) were added as additional project dependencies, which allow us to properly glue together an instance of an ArcGIS API `MapView` inside of a Choo application view.
+This project was originally started and scaffolded out with the help of [create-choo-app](https://github.com/choojs/create-choo-app) (v1.11). Then [esri-loader](https://github.com/Esri/esri-loader) was added as an additional project dependency, which allows us to glue together an instance of an ArcGIS API `MapView` inside of a Choo application view.
+
+_TODO:_ Use [nanocomponent](https://github.com/choojs/nanocomponent) in the `/esri-map-view` Choo route to allow us to properly wait until the a component is mounted on the DOM by hooking into `Nanocomponent.prototype.load(el)`.
 
 ## Routes
 Route             | File                     | Description                     |
