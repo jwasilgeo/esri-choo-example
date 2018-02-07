@@ -5,7 +5,7 @@ This approach demonstrates how to build a Choo-focused application with the [Arc
 
 This project was originally started and scaffolded out with the help of [create-choo-app](https://github.com/choojs/create-choo-app) (v1.11). Then [esri-loader](https://github.com/Esri/esri-loader) was added as an additional project dependency, which allows us to glue together an instance of an ArcGIS API `MapView` inside of a Choo application view.
 
-_TODO: Use [nanocomponent](https://github.com/choojs/nanocomponent) in the `/esri-map-view` Choo route to allow us to properly wait until the a component is mounted on the DOM by hooking into `Nanocomponent.prototype.load(el)`._
+_TODO: Maybe use [nanocomponent](https://github.com/choojs/nanocomponent) in the `/esri-map-view` Choo route to allow us to properly wait until the component is mounted on the DOM by hooking into `Nanocomponent.prototype.load(el)`._
 
 **PROOF:** 
 
