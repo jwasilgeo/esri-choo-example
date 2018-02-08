@@ -1,7 +1,8 @@
 {
   "name": "esri-choo-example",
   "version": "1.0.0",
-  "private": true,
+  "author": "Jacob Wasilkowski (https://jwasilgeo.github.io/)",
+  "license": "Apache-2.0",
   "scripts": {
     "build": "bankai build index.js",
     "create": "choo-scaffold",
