@@ -39,12 +39,14 @@ function view(state, emit) {
   `;
 
   function createEsriMapView() {
-    esriLoader.loadCss('https://js.arcgis.com/4.6/esri/css/view.css');
+    esriLoader.loadCss('https://js.arcgis.com/4.9/esri/css/view.css');
 
     esriLoader.loadModules([
       'esri/Map',
       'esri/views/MapView'
-    ])
+    ], {
+      url: 'https://js.arcgis.com/4.9/'
+    })
       .then(function([Map, MapView]) {
         new MapView({
           container: 'mapViewNode',

@@ -27,10 +27,7 @@ function view(state, emit) {
       </div>
 
       <div class="ph3 pv3 ph4-ns bt">
-        built with
-        <a href="https://github.com/esri/esri-loader" class="link black underline hover-hot-pink">esri / esri-loader</a>
-        and
-        <a href="https://github.com/choojs/create-choo-app" class="link black underline hover-hot-pink">choojs / create-choo-app</a>
+        built with <a href="https://github.com/esri/esri-loader" class="link black underline hover-hot-pink">esri/esri-loader</a> and <a href="https://github.com/choojs/create-choo-app" class="link black underline hover-hot-pink">choojs/create-choo-app</a>
       </div>
     </body>
   `;

@@ -12,17 +12,17 @@
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
-    "choo": "^6.7.0",
-    "choo-devtools": "^2.3.3",
+    "choo": "^6.13.0",
+    "choo-devtools": "^2.5.1",
     "choo-service-worker": "^2.4.0",
-    "esri-loader": "^2.1.0",
-    "sheetify": "^7.1.0",
-    "tachyons": "^4.9.1"
+    "esri-loader": "^2.5.0",
+    "sheetify": "^7.3.3",
+    "tachyons": "^4.11.1"
   },
   "devDependencies": {
-    "bankai": "^9.4.1",
-    "choo-scaffold": "^1.1.2",
-    "dependency-check": "^3.0.0",
+    "bankai": "^9.15.0",
+    "choo-scaffold": "^1.2.0",
+    "dependency-check": "^3.2.1",
     "standard": "^10.0.3"
   }
 }

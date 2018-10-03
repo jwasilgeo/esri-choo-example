@@ -7,11 +7,12 @@ This project was originally started and scaffolded out with the help of [create-
 
 _TODO: Maybe use [nanocomponent](https://github.com/choojs/nanocomponent) in the `/esri-map-view` Choo route to allow us to properly wait until the component is mounted on the DOM by hooking into `Nanocomponent.prototype.load(el)`._
 
-**PROOF:** 
+**PROOF:**
 
 [![screenshot](https://raw.githubusercontent.com/jwasilgeo/esri-choo-example/master/screenshot.png)](https://raw.githubusercontent.com/jwasilgeo/esri-choo-example/master/screenshot.png)
 
 ## Routes
+
 Route             | File                     | Description                     |
 ------------------|--------------------------|---------------------------------|
 `/`               | `views/main.js`          | The main view
@@ -19,6 +20,7 @@ Route             | File                     | Description                     |
 `/*`              | `views/404.js`           | Display unhandled routes
 
 ## Commands
+
 Command                | Description                                      |
 -----------------------|--------------------------------------------------|
 `$ npm start`          | Start the development server
